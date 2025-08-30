@@ -1,0 +1,7 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+.header { background: #111827; color: white; padding: 16px 24px; }
+.header h1 { margin: 0; font-size: 20px; }
+.content { padding: 24px; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-gap: 16px; }
+.student-card { background: white; border-radius: 12px; padding: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+.student-card h3 { margin: 0 0 8px 0; }
+.footer { margin-top: auto; background: #f3f4f6; color: #111827; padding: 12px 24px; font-size: 14px; text-align: center; }
